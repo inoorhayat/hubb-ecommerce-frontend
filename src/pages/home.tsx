@@ -98,8 +98,7 @@ const banners = [
   "https://res.cloudinary.com/dbtpdvmm6/image/upload/a_90/c_fill,w_1100,h_500/v1736106943/cal24_aeh2da.jpg",
   "https://res.cloudinary.com/dbtpdvmm6/image/upload/a_90/c_fill,w_1100,h_500/v1736173558/download_1_oikgre.jpg",
   "https://res.cloudinary.com/dbtpdvmm6/image/upload/c_fill,w_1100,h_500/v1736106952/cal26_j54wha.jpg",
-  "https://res.cloudinary.com/dbtpdvmm6/image/upload/c_fill,w_1100,h_500/v1736106813/cal23_dre1gn.jpg"
-
+  "https://res.cloudinary.com/dbtpdvmm6/image/upload/c_fill,w_1100,h_500/v1736106813/cal23_dre1gn.jpg",
 ];
 const categories = [
   "Urdu quotes",
@@ -165,9 +164,8 @@ const Home = () => {
             </ul>
           </aside>
           <Slider
-          slidesPerView={4}
+            // slidesPerView={4}
             autoplay
-            showDots={true}
             autoplayDuration={3000}
             showNav={false}
             images={banners}

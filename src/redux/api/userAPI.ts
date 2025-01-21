@@ -8,10 +8,13 @@ import {
 } from "../../types/api-types";
 import { User } from "../../types/types";
 
+export const server = "http://hubb-frontend.mooo.com";
+
+
 export const userAPI = createApi({
   reducerPath: "userApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: `${import.meta.env.VITE_SERVER}/api/v1/user/`,
+    baseUrl: `${server}/api/v1/user/`,
   }),
   tagTypes: ["users"],
   endpoints: (builder) => ({

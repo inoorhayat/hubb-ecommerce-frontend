@@ -34,10 +34,11 @@ const Header = ({ user }: PropsType) => {
     <nav className="header">
       <div className="logo">
         <Link to="/">
-          <img src=".\src\assets\logo_new.jpg" alt="Hubb-Calligraphy" />
+          <img src="https://res.cloudinary.com/dbtpdvmm6/image/upload/v1737106565/logo_new_mrw3tg.jpg" alt="Hubb-Calligraphy" />
         </Link>
       </div>
 
+          {/* .\src\assets\logo_new.jpg */}
       {/* <h1>Hubb-calligraphy</h1> */}
 
       <Link className="homeeee" onClick={() => setIsOpen(false)} to={"/"}>

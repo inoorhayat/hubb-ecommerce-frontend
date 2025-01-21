@@ -7,10 +7,13 @@ import {
   UpdateOrderRequest,
 } from "../../types/api-types";
 
+export const server = "http://hubb-frontend.mooo.com";
+
+
 export const orderApi = createApi({
   reducerPath: "orderApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: `${import.meta.env.VITE_SERVER}/api/v1/order/`,
+    baseUrl: `${server}/api/v1/order/`,
   }),
   tagTypes: ["orders"],
   endpoints: (builder) => ({

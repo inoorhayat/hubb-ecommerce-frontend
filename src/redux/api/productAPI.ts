@@ -14,10 +14,13 @@ import {
   UpdateProductRequest,
 } from "../../types/api-types";
 
+export const server = "http://hubb-frontend.mooo.com";
+
+
 export const productAPI = createApi({
   reducerPath: "productApi",
   baseQuery: fetchBaseQuery({
-    baseUrl: `${import.meta.env.VITE_SERVER}/api/v1/product/`,
+    baseUrl: `${server}/api/v1/product/`,
   }),
   tagTypes: ["product"],
   endpoints: (builder) => ({

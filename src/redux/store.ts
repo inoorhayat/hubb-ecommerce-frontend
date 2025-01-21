@@ -6,7 +6,8 @@ import { cartReducer } from "./reducer/cartReducer";
 import { orderApi } from "./api/orderAPI";
 import { dashboardApi } from "./api/dashboardAPI";
 
-export const server = import.meta.env.VITE_SERVER;
+export const server = "http://hubb-frontend.mooo.com";
+
 
 export const store = configureStore({
   reducer: {
