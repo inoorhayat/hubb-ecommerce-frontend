@@ -33,9 +33,9 @@ _fill each filed with your info respectively_
 
 ## Author
 
-**Instagram** Click [Here](https://www.instagram.com/inoorhayat/) **@meAbhiSingh**
+**Instagram** Click [Here](https://www.instagram.com/inoorhayat/) **@inoohayat**
 
-**LinkedIn** Click [Here](https://www.linkedin.com/in/inoorhayat/) **@meAbhiSingh**
+**LinkedIn** Click [Here](https://www.linkedin.com/in/inoorhayat/) **@inoorhayat**
 
 
 # hubbsfrontend
